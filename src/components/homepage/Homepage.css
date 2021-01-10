@@ -1,0 +1,34 @@
+@layer base {
+  .homepage {
+    @apply flex flex-col items-center py-4 px-12;
+  }
+  
+  .directory-menu {
+    @apply w-full flex flex-wrap justify-between;
+  }
+  
+  .menu-item {
+    min-width: 30%;
+    @apply h-60 flex flex-auto items-center justify-center border border-solid border-black mt-0 mx-2 mb-4;
+  }
+  
+  .menu-item:first-child {
+    @apply mr-2;
+  }
+  
+  .menu-item:last-child {
+    @apply ml-2;
+  }
+  
+  .menu-item .content {
+    @apply h-24 py-0 px-6 flex flex-col items-center justify-center border border-solid border-black;
+  }
+  
+  .menu-item .title {
+    @apply font-bold mb-2.5 text-xl text-gray-700;
+  }
+  
+  .menu-item .subtitle {
+    @apply text-sm;
+  }
+}
