@@ -1,0 +1,5 @@
+@layer base {
+  .btn-cta {
+    @apply rounded-sm shadow border border-black py-2 px-6 hover:bg-gray-200;
+  }
+}

@@ -1,0 +1,5 @@
+@layer base {  
+  .directory-menu {
+    @apply w-full flex flex-wrap justify-between;
+  }
+}

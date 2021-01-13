@@ -1,18 +1,22 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { Link, useRouteMatch } from "react-router-dom";
 
 import './MenuItem.css';
 
-const MenuItem = ({ name, img }) => (
-  <li className='menu-item'>
-    <a href="#" style={{
-      backgroundImage: `url(${img})`
-    }}>
-      <span className='content'>
-        {name}
-      </span>
-    </a>
-  </li>
-);
+const MenuItem = ({ title, img, link }) => {
+  const { url } = useRouteMatch();
+
+  return (
+    <li className='menu-item'>
+      <Link to={`${url}${link}`} style={{
+        backgroundImage: `url(${img})`
+      }}>
+        <span className='content'>
+          {title}
+        </span>
+      </Link>
+    </li>
+  );
+};
 
 export default MenuItem;

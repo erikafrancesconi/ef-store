@@ -1,9 +1,5 @@
 @layer base {
   .homepage {
-    @apply flex flex-col items-center py-4 px-12;
-  }
-  
-  .directory-menu {
-    @apply w-full flex flex-wrap justify-between;
+    @apply flex flex-col items-center;
   }
 }
