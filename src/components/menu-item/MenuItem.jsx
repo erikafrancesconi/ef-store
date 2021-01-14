@@ -8,7 +8,7 @@ const MenuItem = ({ title, img, link }) => {
 
   return (
     <li className='menu-item'>
-      <Link to={`${url}${link}`} style={{
+      <Link to={`${url}shop/${link}`} style={{
         backgroundImage: `url(${img})`
       }}>
         <span className='content'>

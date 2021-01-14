@@ -1,0 +1,13 @@
+@layer base {
+  h3 {
+    @apply px-2;
+  }
+
+  .collection-preview {
+    @apply mb-8;
+  }
+  
+  .collection-preview ul {
+    @apply flex flex-wrap;
+  }
+}

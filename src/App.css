@@ -1,0 +1,8 @@
+@layer base {
+  header {
+    @apply mx-2;
+  }
+  p {
+    @apply my-2;
+  }
+}

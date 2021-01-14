@@ -14,4 +14,8 @@
   .menu-item a .content {
     @apply px-12 py-8 border border-solid border-black mx-24 bg-white bg-opacity-75 font-normal text-xl text-gray-700 uppercase text-center;
   }
+
+  .menu-item a:hover .content {
+    @apply bg-opacity-80;
+  }
 }
