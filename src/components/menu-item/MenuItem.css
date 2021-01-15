@@ -1,6 +1,7 @@
 @layer base {
   .menu-item {
-    @apply h-56 flex flex-auto items-center justify-center mt-0 mx-2 mb-4;
+    @apply h-64 flex flex-auto items-center justify-center mt-0 mx-2 mb-4;
+    min-width: 25%;
   }
 
   .menu-item a {

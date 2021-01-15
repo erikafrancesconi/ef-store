@@ -1,0 +1,5 @@
+@layer base {
+  footer {
+    @apply text-center border-t py-4 mt-16;
+  }
+}

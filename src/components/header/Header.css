@@ -1,0 +1,13 @@
+@layer base {
+  h1 {
+    @apply text-3xl uppercase font-bold text-theme-pink;
+  }
+
+  header {
+    @apply mx-2 flex justify-between items-center mb-4;
+  }
+
+  header li {
+    @apply inline-block px-2 uppercase text-theme-blue;
+  }
+}

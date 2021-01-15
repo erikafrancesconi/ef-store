@@ -16,7 +16,7 @@ const Collection = ({ title, routeName, items }) => {
           <CollectionItem key={id} {...otherProps} />
         ))}
       </ul>
-      <p>
+      <p className="px-2">
         <Cta link={`${url}/${routeName}`} text={`Browse all ${title}`} />
       </p>
     </div>

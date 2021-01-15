@@ -1,9 +1,9 @@
 @layer base {
   .collection-item {
-    @apply p-2 w-3/12 max-w-xs min-w-max;
+    @apply p-2 max-w-xs min-w-max;
   }
   .collection-item img {
-    @apply h-80 w-72 object-cover;
+    @apply h-80 w-64 object-cover;
   }
   .collection-footer {
     @apply flex justify-between;

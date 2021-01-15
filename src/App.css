@@ -1,8 +1,12 @@
 @layer base {
-  header {
-    @apply mx-2;
-  }
   p {
     @apply my-2;
+  }
+  h2 {
+    @apply text-2xl text-theme-blue font-bold px-2;
+  }
+
+  h3 {
+    @apply text-xl;
   }
 }
