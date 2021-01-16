@@ -1,7 +1,7 @@
 import React from 'react';
 
-import shopdata from '../../common/shopdata';
-import Collection from '../../components/collection/Collection';
+import shopdata from './assets/shopdata';
+import Collection from './components/collection/Collection';
 
 import './Shop.css';
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
+
 import './App.css';
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
-import HomePage from './pages/homepage/Homepage';
-import Shop from './pages/shop/Shop';
+
+import { HomePage, Shop } from "./pages";
+import { Header, Footer } from "./components";
 
 function App() {
   return (

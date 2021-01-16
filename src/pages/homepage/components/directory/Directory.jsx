@@ -1,6 +1,6 @@
 import React from 'react';
-import MenuItem from "../../components/menu-item/MenuItem";
-import categories from '../../common/categories';
+import MenuItem from "../menu-item/MenuItem";
+import categories from '../../assets/categories';
 
 import './Directory.css';
 

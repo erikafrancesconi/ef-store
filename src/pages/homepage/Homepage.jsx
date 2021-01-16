@@ -1,6 +1,6 @@
 import React from 'react';
-import Cta from '../../components/cta/Cta';
-import Directory from '../../components/directory/Directory';
+import { Cta } from '../../components';
+import Directory from './components/directory/Directory';
 
 import './Homepage.css';
 
