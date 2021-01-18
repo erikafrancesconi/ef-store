@@ -5,7 +5,7 @@ import Collection from './components/collection/Collection';
 
 import './Shop.css';
 
-const Shop = () => {
+export const Shop = () => {
   return (
     <React.Fragment>
       <h2>Shop</h2>
@@ -15,5 +15,3 @@ const Shop = () => {
     </React.Fragment>
   )
 }
-
-export default Shop;

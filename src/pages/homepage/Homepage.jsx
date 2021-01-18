@@ -4,12 +4,11 @@ import Directory from './components/directory/Directory';
 
 import './Homepage.css';
 
-const HomePage = () => {
+export const HomePage = () => {
   return (
     <div className='homepage'>
       <Directory />
       <Cta link='/shop' text='Visit our shop' />
     </div>
-  )};
-
-export default HomePage;
+  )
+};

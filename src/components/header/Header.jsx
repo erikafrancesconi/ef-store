@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import './Header.css';
 
-const Header = () => {
+export const Header = () => {
   return (
     <header>
       <h1><Link to="/">EF Store</Link></h1>
@@ -15,5 +15,3 @@ const Header = () => {
     </header>
   )
 }
-
-export default Header;
