@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouteMatch } from 'react-router-dom';
-import { Cta } from "../../../../components";
+import { Cta } from "components";
 import CollectionItem from '../collection-item/CollectionItem';
 
 import './Collection.css';

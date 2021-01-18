@@ -3,8 +3,8 @@ import { Switch, Route } from "react-router-dom";
 
 import './App.css';
 
-import { HomePage, Shop } from "./pages";
-import { Header, Footer } from "./components";
+import { HomePage, Shop } from "pages";
+import { Header, Footer } from "components";
 
 function App() {
   return (
