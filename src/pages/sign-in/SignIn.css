@@ -1,0 +1,5 @@
+@layer base {
+  button {
+    @apply cursor-pointer w-auto mt-2 px-6 py-2 bg-theme-blue text-white border border-black;
+  }
+}

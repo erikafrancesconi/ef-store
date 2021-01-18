@@ -1,6 +1,9 @@
 import React from 'react';
 
 import { Form } from "components";
+import { signInWithGoogle } from "firebase/firebase.utils";
+
+import './SignIn.css';
 
 export const SignIn = () => {
   return (
@@ -29,6 +32,7 @@ export const SignIn = () => {
         }
         submitLabel="Sign In"
         onSubmit={data => { console.log(data) }} />
+        <button onClick={signInWithGoogle}>Sign In With Google</button>
       </div>
     </div>
   );
