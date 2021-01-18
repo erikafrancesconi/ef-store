@@ -1,0 +1,5 @@
+@layer base {
+  input[type=submit] {
+    @apply cursor-pointer w-auto block mt-2 px-6;
+  }
+}

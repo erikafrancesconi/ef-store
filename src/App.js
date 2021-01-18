@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 
 import './App.css';
 
-import { HomePage, Shop } from "pages";
+import { HomePage, Shop, SignIn } from "pages";
 import { Header, Footer } from "components";
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/"><HomePage /></Route>
           <Route path="/shop"><Shop /></Route>
+          <Route path="/signin"><SignIn /></Route>
         </Switch>
       </main>
       <Footer />
